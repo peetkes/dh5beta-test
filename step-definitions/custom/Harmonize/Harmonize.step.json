@@ -1,0 +1,20 @@
+{
+  "language" : "zxx",
+  "name" : "Harmonize",
+  "description" : "",
+  "type" : "CUSTOM",
+  "version" : 1,
+  "options" : {
+    "sourceQuery" : "cts.collectionQuery([\"\"])",
+    "targetEntity" : "Customer",
+    "collections" : [ "Harmonize" ],
+    "sourceDatabase" : "data-hub-STAGING",
+    "sourceCollection" : "",
+    "targetDatabase" : "data-hub-FINAL"
+  },
+  "customHook" : null,
+  "modulePath" : "/ext/custom.xqy",
+  "retryLimit" : 0,
+  "batchSize" : null,
+  "threadCount" : null
+}
